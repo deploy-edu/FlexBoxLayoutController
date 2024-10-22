@@ -9,6 +9,7 @@ export default function App() {
         <Container
           style={{
             flexDirection: "row",
+            justifyContent: "flex-end",
           }}
         >
           <Item name="Item 1" />
