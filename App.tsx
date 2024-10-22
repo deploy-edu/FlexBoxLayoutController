@@ -1,11 +1,16 @@
 import { SafeAreaView, StyleSheet, View } from "react-native";
 import Container from "./Container";
+import Item from "./Item";
 
 export default function App() {
   return (
     <SafeAreaView style={styles.safeAreaView}>
       <View style={styles.rootContainer}>
-        <Container></Container>
+        <Container>
+          <Item name="Item 1" />
+          <Item name="Item 2" />
+          <Item name="Item 3" />
+        </Container>
       </View>
     </SafeAreaView>
   );
