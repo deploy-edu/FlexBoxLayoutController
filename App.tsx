@@ -10,6 +10,7 @@ export default function App() {
           style={{
             flexDirection: "row",
             justifyContent: "flex-end",
+            alignItems: "flex-end",
           }}
         >
           <Item name="Item 1" />
