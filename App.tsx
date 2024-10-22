@@ -6,7 +6,11 @@ export default function App() {
   return (
     <SafeAreaView style={styles.safeAreaView}>
       <View style={styles.rootContainer}>
-        <Container>
+        <Container
+          style={{
+            flexDirection: "row",
+          }}
+        >
           <Item name="Item 1" />
           <Item name="Item 2" />
           <Item name="Item 3" />
