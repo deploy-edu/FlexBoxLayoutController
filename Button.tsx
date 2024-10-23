@@ -17,6 +17,9 @@ const Button: FC<Props> = ({ title, onPress }) => {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: "#fff",
+    borderWidth: 1,
+    padding: 10,
+    borderRadius: 5,
   },
 });
 

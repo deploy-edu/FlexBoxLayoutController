@@ -35,7 +35,7 @@ export default function App() {
           <Item name="Item 2" />
           <Item name="Item 3" />
         </Container>
-        <Container style={{ flexDirection: "row" }}>
+        <Container style={{ flexDirection: "row", gap: 10, padding: 10 }}>
           <Button
             title="row"
             onPress={() => {
