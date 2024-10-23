@@ -61,6 +61,44 @@ export default function App() {
             }}
           />
         </Container>
+        <Container style={{ flexDirection: "row", gap: 10, padding: 10 }}>
+          <Button
+            title="flex-start"
+            onPress={() => {
+              setJustifyContent("flex-start");
+            }}
+          />
+          <Button
+            title="flex-end"
+            onPress={() => {
+              setJustifyContent("flex-end");
+            }}
+          />
+          <Button
+            title="center"
+            onPress={() => {
+              setJustifyContent("center");
+            }}
+          />
+          <Button
+            title="space-between"
+            onPress={() => {
+              setJustifyContent("space-between");
+            }}
+          />
+          <Button
+            title="space-around"
+            onPress={() => {
+              setJustifyContent("space-around");
+            }}
+          />
+          <Button
+            title="space-evenly"
+            onPress={() => {
+              setJustifyContent("space-evenly");
+            }}
+          />
+        </Container>
       </View>
     </SafeAreaView>
   );
