@@ -12,7 +12,6 @@ const Container: FC<Props> = ({ style, children }) => {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
     borderWidth: 1,
     backgroundColor: "#fff",
   },

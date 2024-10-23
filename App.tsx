@@ -27,6 +27,7 @@ export default function App() {
             flexDirection,
             justifyContent,
             alignItems,
+            flex: 1,
           }}
         >
           <Item name="Item 1" />
