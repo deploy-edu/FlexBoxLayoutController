@@ -33,7 +33,12 @@ export default function App() {
         >
           <Item name="Item 1" />
           <Item name="Item 2" />
-          <Item name="Item 3" />
+          <Item
+            name="Item 3"
+            style={{
+              width: "auto",
+            }}
+          />
         </Container>
         <Container
           style={{
