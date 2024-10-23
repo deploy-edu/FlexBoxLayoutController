@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { SafeAreaView, StyleSheet, View } from "react-native";
+import Button from "./Button";
 import Container from "./Container";
 import Item from "./Item";
 
@@ -33,6 +34,32 @@ export default function App() {
           <Item name="Item 1" />
           <Item name="Item 2" />
           <Item name="Item 3" />
+        </Container>
+        <Container style={{ flexDirection: "row" }}>
+          <Button
+            title="row"
+            onPress={() => {
+              setFlexDirection("row");
+            }}
+          />
+          <Button
+            title="row-reverse"
+            onPress={() => {
+              setFlexDirection("row-reverse");
+            }}
+          />
+          <Button
+            title="column"
+            onPress={() => {
+              setFlexDirection("column");
+            }}
+          />
+          <Button
+            title="column-reverse"
+            onPress={() => {
+              setFlexDirection("column-reverse");
+            }}
+          />
         </Container>
       </View>
     </SafeAreaView>
