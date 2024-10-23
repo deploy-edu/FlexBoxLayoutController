@@ -37,6 +37,7 @@ export default function App() {
             name="Item 3"
             style={{
               width: "auto",
+              height: "auto",
             }}
           />
         </Container>
