@@ -99,6 +99,38 @@ export default function App() {
             }}
           />
         </Container>
+        <Container style={{ flexDirection: "row", gap: 10, padding: 10 }}>
+          <Button
+            title="flex-start"
+            onPress={() => {
+              setAlignItems("flex-start");
+            }}
+          />
+          <Button
+            title="flex-end"
+            onPress={() => {
+              setAlignItems("flex-end");
+            }}
+          />
+          <Button
+            title="center"
+            onPress={() => {
+              setAlignItems("center");
+            }}
+          />
+          <Button
+            title="stretch"
+            onPress={() => {
+              setAlignItems("stretch");
+            }}
+          />
+          <Button
+            title="baseline"
+            onPress={() => {
+              setAlignItems("baseline");
+            }}
+          />
+        </Container>
       </View>
     </SafeAreaView>
   );
