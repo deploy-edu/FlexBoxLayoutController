@@ -31,7 +31,12 @@ export default function App() {
             flex: 1,
           }}
         >
-          <Item name="Item 1" />
+          <Item
+            name="Item 1"
+            style={{
+              justifyContent: "flex-start",
+            }}
+          />
           <Item name="Item 2" />
           <Item
             name="Item 3"
@@ -40,6 +45,7 @@ export default function App() {
               height: "auto",
               minWidth: 100,
               minHeight: 100,
+              justifyContent: "flex-end",
             }}
           />
         </Container>
