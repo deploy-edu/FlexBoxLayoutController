@@ -8,7 +8,7 @@ type Props = {
 
 const Item: FC<Props> = ({ style, name }) => {
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, style]}>
       <Text style={styles.name}>{name}</Text>
     </View>
   );
