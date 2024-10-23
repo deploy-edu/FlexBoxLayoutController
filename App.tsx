@@ -35,7 +35,14 @@ export default function App() {
           <Item name="Item 2" />
           <Item name="Item 3" />
         </Container>
-        <Container style={{ flexDirection: "row", gap: 10, padding: 10 }}>
+        <Container
+          style={{
+            flexDirection: "row",
+            gap: 10,
+            padding: 10,
+            flexWrap: "wrap",
+          }}
+        >
           <Button
             title="row"
             onPress={() => {
@@ -61,7 +68,14 @@ export default function App() {
             }}
           />
         </Container>
-        <Container style={{ flexDirection: "row", gap: 10, padding: 10 }}>
+        <Container
+          style={{
+            flexDirection: "row",
+            gap: 10,
+            padding: 10,
+            flexWrap: "wrap",
+          }}
+        >
           <Button
             title="flex-start"
             onPress={() => {
@@ -99,7 +113,14 @@ export default function App() {
             }}
           />
         </Container>
-        <Container style={{ flexDirection: "row", gap: 10, padding: 10 }}>
+        <Container
+          style={{
+            flexDirection: "row",
+            gap: 10,
+            padding: 10,
+            flexWrap: "wrap",
+          }}
+        >
           <Button
             title="flex-start"
             onPress={() => {
@@ -144,5 +165,6 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 20,
     backgroundColor: "#fff",
+    gap: 10,
   },
 });
