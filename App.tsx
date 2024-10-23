@@ -38,6 +38,8 @@ export default function App() {
             style={{
               width: "auto",
               height: "auto",
+              minWidth: 100,
+              minHeight: 100,
             }}
           />
         </Container>
